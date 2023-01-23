@@ -65,7 +65,7 @@ const PortalLayout = ({ children }) => {
               <span className="innerFour">Mikado Japanese Steakhouse</span>
             </div>
             <div className="innerGridx3">
-              <span className="innerFive"><a className="innerFive" href="https://www.google.com/maps/dir/?api=1&destination=10460%20Avenues%20S%20Walk%20Blvd,%20Jacksonville,%20FL%2033258" target="_blank">10460 Avenues S Walk Blvd, Jacksonville, FL 33258</a></span>
+              <span className="innerFive"><a className="innerFive" href="https://www.google.com/maps/dir/?api=1&destination=10460%20Avenues%20Walk%20Blvd,%20Jacksonville,%20FL%2033258" target="_blank">10460 Avenues Walk Blvd, Jacksonville, FL 33258</a></span>
             </div>
             <div className="innerGridx3">
               <span className="innerFive"><a className="innerFive" href="tel:9042608860">(904)260-8860</a></span>

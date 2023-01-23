@@ -21,7 +21,7 @@ const Home = () => {
             <span className="innerOne">Come and see us!</span>
             <div className="innerGridx2">
               <span className="innerTwo">Address:</span>
-              <span className="innerThree"><a className="innerThree" href="https://www.google.com/maps/dir/?api=1&destination=10460%20Avenues%20S%20Walk%20Blvd,%20Jacksonville,%20FL%2033258" target="_blank">10460 Avenues S Walk Blvd, Jacksonville, FL 33258</a></span>
+              <span className="innerThree"><a className="innerThree" href="https://www.google.com/maps/dir/?api=1&destination=10460%20Avenues%20Walk%20Blvd,%20Jacksonville,%20FL%2033258" target="_blank">10460 Avenues Walk Blvd, Jacksonville, FL 33258</a></span>
             </div>
             <div className="innerGridx2">
               <span className="innerTwo">Phone:</span>
