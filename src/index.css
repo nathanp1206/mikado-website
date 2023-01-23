@@ -269,4 +269,8 @@
         margin-top: 20px;
         font-weight: bolder;
     }
+    .skytabMenu {
+        width: 100%;
+        height: 80vh;
+    }
 }
