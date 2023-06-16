@@ -13,50 +13,23 @@ const Home = () => {
     <div className="container-fluid px-0 flex-sf">
       <div className="outerDiv">
         <img src="./images/IMG_1831.JPG" className="imageOne"></img>
-        <span className="spanImage">Experience Authentic Japanese And Asian Fusion Cuisine</span>
+        {/* <span className="spanImage">Experience Authentic Japanese And Asian Fusion Cuisine</span> */}
       </div>
-      <div className="mapAndInviteContainer">
-        <div className="gridOne">
-          <div className="innerGrid">
-            <span className="innerOne">Come and see us!</span>
-            <div className="innerGridx2">
-              <span className="innerTwo">Address:</span>
-              <span className="innerThree"><a className="innerThree" href="https://www.google.com/maps/dir/?api=1&destination=10460%20Avenues%20Walk%20Blvd,%20Jacksonville,%20FL%2033258" target="_blank">10460 Avenues Walk Blvd, Jacksonville, FL 33258</a></span>
-            </div>
-            <div className="innerGridx2">
-              <span className="innerTwo">Phone:</span>
-              <span className="innerThree"><a className="innerThree" href="tel:9042608860">(904)260-8860</a></span>
-            </div>
-            <div className="innerGridx2">
-              <span className="innerTwo">Email:</span>
-              <span className="innerThree"><a className="innerThree" href="mailto: mikado@mikado-jax.com">Mikado@mikado-jax.com</a></span>
-            </div>
-          </div>
-        </div>
-        <div className="gridThree">
-          <span style={{color: "white", fontWeight: "bold"}}>
-            Hours:
-          </span>
-          <div className='hoursClass'>
-            <div>Sunday:	11:30AM - 9PM</div>
-            <div>Monday:	3PM - 9PM</div>
-            <div>Tuesday:	Closed</div>
-            <div>Wednesday:	3PM - 9PM</div>
-            <div>Thursday:	3PM - 9PM</div>
-            <div>Friday:	11:30AM - 9PM</div>
-            <div>Saturday:	11:30AM - 9PM</div>
-          </div>
-          <div className='happyHour'>
-            Happy Hour from 3PM to 6PM on Weekdays!
-            <br />Beer and Wine(House) $2 off!
-          </div>
-        </div>
-        <div className="gridTwo">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3449.093123924021!2d-81.55724648463479!3d30.17733371923699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e5cb7724daac5d%3A0x9638c8e1cee844f8!2sMikado!5e0!3m2!1sen!2sus!4v1674419651779!5m2!1sen!2sus" className="googleMaps" style={{border:0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        
-      </div>
-      <div className='swiperCss'>
+            <p className='closedForReno'>
+              Mikado will be temporarily closing its doors for remodeling, starting from June 19th. This renovation is an exciting step forward in our journey towards 
+              enhancing your dining experience.<br /><br />
+              During this period, our team will be working tirelessly to transform our space into a vibrant and inviting Dim Sum and Chinese restaurant. We are thrilled 
+              to announce that upon reopening in two months' time, you can expect a delectable menu featuring a wide variety of authentic dim sum delicacies, alongside a 
+              selection of traditional Chinese dishes.<br /><br />
+              In addition to the tantalizing flavors, we are committed to ensuring a healthier dining experience for our valued patrons. Our new menu will feature a range of 
+              nutritious options crafted with the freshest ingredients, allowing you to indulge in delicious Chinese cuisine while maintaining a balanced lifestyle.<br /><br />
+              We would like to express our sincere gratitude for your continued support throughout the years. Your loyalty and patronage have been invaluable to us, and we are 
+              excited to serve you in our revitalized establishment.<br /><br />
+              Please stay tuned for updates on our reopening date, which we will share through our website and social media channels. If you have any questions or need 
+              further assistance, our team is here to help. Feel free to reach out to us via phone or email.<br /><br />
+              Thank you once again for your unwavering support. We eagerly look forward to welcoming you back to Mikado soon.
+            </p>
+      {/* <div className='swiperCss'>
         <Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={50}
@@ -79,7 +52,7 @@ const Home = () => {
           <SwiperSlide><img className='swiperSlides' src="./images/IMG_8555.JPG"></img></SwiperSlide>
           <SwiperSlide><img className='swiperSlides' src="./images/IMG_8543.JPG"></img></SwiperSlide>
         </Swiper>
-      </div>
+      </div> */}
     </div>
   );
 };

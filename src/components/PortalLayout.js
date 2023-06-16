@@ -33,7 +33,7 @@ const PortalLayout = ({ children }) => {
                     HOME
                   </NavLink>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <NavLink
                     className="flex-sm-fill text-center nav-link border-end border-3 nav-hover p-2 fw-bold"
                     to="/menu"
@@ -41,7 +41,7 @@ const PortalLayout = ({ children }) => {
                   >
                     MENU
                   </NavLink>
-                </li>
+                </li> */}
                 {/* <li className="nav-item">
                   <NavLink
                     className="flex-sm-fill text-center nav-link border-3 nav-hover p-2 fw-bold"
@@ -72,6 +72,9 @@ const PortalLayout = ({ children }) => {
             </div>
             <div className="innerGridx3">
               <span className="innerFive"><a className="innerFive" href="mailto: mikado@mikado-jax.com">Mikado@mikado-jax.com</a></span>
+            </div>
+            <div className="innerGridx3">
+              <span className="innerFive"><a className="innerFive" href="https://www.facebook.com/MikadoJapaneseSteakhouse/">Our Facebook Page</a></span>
             </div>
         </div>
         <div>
