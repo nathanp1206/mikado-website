@@ -151,6 +151,7 @@
         display: grid;
         justify-content: center;
         margin: 20px 20%;
+        color: #ffffff !important;
     }
 }
 
